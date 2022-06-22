@@ -10,16 +10,17 @@ twiceBirthdays = {
                     19990614 : 'Chou Tzuyu'
                 }
 
-itzyBirtdays = {
+itzyBirtdays = { 
 
 
 
 
 }
 
-def addBirthday(group, date, name):
-    groupBdayList = str(group + 'Birthdays')
-    print(groupBdayList)
+# def addBirthday(group, date, name):
+#     groupBdayList = str(group + 'Birthdays')
+#     print(groupBdayList)
+
 
 
 # idols = {"Groups": [], "Names": [], "Birthdays": []}
