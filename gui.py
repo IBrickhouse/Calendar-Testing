@@ -1,8 +1,8 @@
+#Import statements
 from tkinter import *
-
 import calendar
-
 from datetime import date
+import events
 
 window = Tk()
 
@@ -24,3 +24,4 @@ moncal.grid(row=5, column=1)
 # event loop
 window.mainloop()
 
+#print(events.twiceBirthdays)
