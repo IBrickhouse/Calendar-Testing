@@ -7,8 +7,6 @@ import cal
 
 window = Tk()
 
-#window.config(background ='white')
-
 window.title("Month Calendar")
 window.geometry("150x150")
 #window.configure(bg='red')
