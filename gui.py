@@ -15,7 +15,8 @@ window.configure(bg='red')
 
 # make page content
 #content = calendar.month(currentYear,currentMonth)
-content = cal.showBdayMonCal("Chaeyoung")
+userContent = input("Member Name: ")
+content = cal.showBdayMonCal(userContent)
 
 # ceate a label widget
 moncal = Label(window, text=content)
