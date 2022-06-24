@@ -68,22 +68,31 @@ tzuyu = {
 }
 
 def getTwice(member):
-    if member == "Nayeon" or '나연':
+    #if member == "Nayeon" or '나연':
+    if member == "Nayeon":
         return nayeon
-    if member == "Jeongyeon" or '정연':
+    #if member == "Jeongyeon" or '정연':
+    if member == "Jeongyeon":
         return jeongyeon
-    if member == "Momo" or '모모':
+    #if member == "Momo" or '모모':
+    if member == "Momo":
         return momo
-    if member == "Sana" or '사나':
+    #if member == "Sana" or '사나':
+    if member == "Sana":
         return sana
-    if member == "Jihyo" or '지효':
+    #if member == "Jihyo" or '지효':
+    if member == "Jihyo":
       return jihyo
-    if member == "Mina" or '미나':
+    #if member == "Mina" or '미나':
+    if member == "Mina":
         return mina
-    if member == "Dahyun" or '다현':
+    #if member == "Dahyun" or '다현':
+    if member == "Dahyun":
         return dahyun
-    if member == "Chaeyoung" or '채영':
+    #if member == "Chaeyoung" or '채영':
+    if member == "Chaeyoung":
         return chaeyoung
-    if member == "Tzuyu" or '쯔위':
+    #if member == "Tzuyu" or '쯔위':
+    if member == "Tzuyu":
         return tzuyu
     
