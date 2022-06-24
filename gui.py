@@ -2,26 +2,23 @@
 from tkinter import *
 import calendar
 from datetime import date
-import events
+import twiceMembers
+import cal
 
 window = Tk()
 
 window.config(background ='white')
 # ceate a label widget
 window.title("Month Calendar")
+window.geometry("150x150")
+window.configure(bg='blue')
 
-window.geometry("200x200")
-
-currentDay = date.today().day
-currentMonth = date.today().month
-currentYear = date.today().year
-
-content = calendar.month(currentYear,currentMonth)
+#content = calendar.month(currentYear,currentMonth)
+content = cal.showBdayMonCal("Chaeyoung")
 
 moncal = Label(window, text=content)
-moncal.grid(row=5, column=1)
+moncal.pack()
+#moncal.grid(row=0, column=0)
 
 # event loop
 window.mainloop()
-
-#print(events.twiceBirthdays)
