@@ -6,7 +6,8 @@ twice = {
 }
 
 nayeon = {
-                "Name": "Im Nayeon",
+                #"Name": "Im Nayeon",
+                "Name": "Im Nayeon" or "임나연",
                 "Birthday": 19950922,
                 "Blood Type": "A",
                 #"Color": "sky blue"
@@ -14,7 +15,7 @@ nayeon = {
 }
 
 jeongyeon = {
-                "Name": "Yoo Jeongyeon",
+                "Name": "Yoo Jeongyeon" or "유정연",
                 "Birthday": 19961101,
                 "Blood Type": "O",
                 #"Color": "yellow-green"
@@ -77,31 +78,31 @@ tzuyu = {
 }
 
 def getTwice(member):
-    #if member == "Nayeon" or '나연':
+    #if member == "Nayeon" or '임나연':
     if member == "Nayeon":
         return nayeon
-    #if member == "Jeongyeon" or '정연':
+    #if member == "Jeongyeon" or '유정연':
     if member == "Jeongyeon":
         return jeongyeon
-    #if member == "Momo" or '모모':
+    #if member == "Momo" or '모모' or '平井 もも':
     if member == "Momo":
         return momo
-    #if member == "Sana" or '사나':
+    #if member == "Sana" or '사나' or '湊崎 紗夏':
     if member == "Sana":
         return sana
-    #if member == "Jihyo" or '지효':
+    #if member == "Jihyo" or '박지효':
     if member == "Jihyo":
       return jihyo
-    #if member == "Mina" or '미나':
+    #if member == "Mina" or '미나' or '名井 南':
     if member == "Mina":
         return mina
-    #if member == "Dahyun" or '다현':
+    #if member == "Dahyun" or '김다현':
     if member == "Dahyun":
         return dahyun
-    #if member == "Chaeyoung" or '채영':
+    #if member == "Chaeyoung" or '손채영':
     if member == "Chaeyoung":
         return chaeyoung
-    #if member == "Tzuyu" or '쯔위':
+    #if member == "Tzuyu" or '쯔위' or '周子瑜:
     if member == "Tzuyu":
         return tzuyu
     
