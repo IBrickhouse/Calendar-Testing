@@ -17,6 +17,7 @@ window.configure(bg='red')
 #content = calendar.month(currentYear,currentMonth)
 userContent = input("Member Name: ")
 content = cal.showBdayMonCal(userContent)
+window.configure(bg=str(twiceMembers.getTwice(userContent)["Color"]))
 
 # ceate a label widget
 moncal = Label(window, text=content)

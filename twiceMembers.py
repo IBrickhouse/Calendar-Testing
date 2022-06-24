@@ -21,7 +21,7 @@ momo = {
                 "Name": "Hirai Momo",
                 "Birthday": 19961109,
                 "Blood Type": "A",
-                "Color": "Pink"
+                "Color": "pink"
 }
 
 sana = {
