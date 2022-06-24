@@ -1,4 +1,6 @@
 twice = {
+                #"Name" : "Twice" or "트와이스"
+                "Name": "Twice",
                 "Debut": 20151020,
                 #"Color": "Apricot & Neon Magenta",
                 #color apricot (#FCC89B) Neon Magenta (#FF5FA2)

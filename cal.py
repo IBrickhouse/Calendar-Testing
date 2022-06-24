@@ -5,12 +5,11 @@ from xml.etree.ElementTree import tostring
 import twiceMembers
 
 # varable definitions
-currentYear = date.today().year
-
 # currentDay = date.today().day
 # currentMonth = date.today().month
-# currentYear = date.today().year
+currentYear = date.today().year
 
+# methods
 def getMembersBirthday(member):
     birthday = twiceMembers.getTwice(member)["Birthday"]
     print(birthday)
