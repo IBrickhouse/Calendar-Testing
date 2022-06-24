@@ -1,24 +1,8 @@
 import calendar
 from datetime import date
-import events
+import twiceMembers
 
-# currentDay = date.today().day
-# currentMonth = date.today().month
-# currentYear = date.today().year
+def getMembersBirthday(member):
+    print(twiceMembers.getTwice(member)["Birthday"])
 
-#bdayDay = events.twiceBirthdays
-
-#print(bdayDay)
-
-#def parseYear(date):
-
-
-
-#parseYear(1990423)
-
-#def displayTodaysCalendar():
-    #print(calendar.month(currentYear,currentMonth))
-
-#displayTodaysCalendar()
-
-print(events.twiceBirthdays)
+getMembersBirthday("Momo")
