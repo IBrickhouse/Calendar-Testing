@@ -1,3 +1,8 @@
+twice = {
+                "Debut": 20151020,
+                "Color": "Apricot & Neon Magenta",
+}
+
 nayeon = {
                 "Name": "Im Nayeon",
                 "Birthday": 19950922,
@@ -20,7 +25,7 @@ momo = {
 }
 
 sana = {
-                "Name": "Minotozaki Sana",
+                "Name": "Minatozaki Sana",
                 "Birthday": 19961229,
                 "Blood Type": "B",
                 "Color": "Purple"
@@ -80,5 +85,3 @@ def getTwice(member):
     if member == "Tzuyu":
         return tzuyu
     
-
-#print(twice[7]["Name"])

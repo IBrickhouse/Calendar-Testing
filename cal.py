@@ -22,29 +22,21 @@ def getMembersBirthdayMonth(member):
     bdayMonth = bdayMonth[4:6]
     if bdayMonth[0] == '0':
         bdayMonth = bdayMonth[1]
-        #print(int(bdayMonth))
         return int(bdayMonth)
-        #print(type(bdayMonth))
     else:
-        #print(int(bdayMonth))
         return int(bdayMonth)
-        #print(type(bdayMonth))
 
 def showBdayMonCal(member):
-    monCal = calendar.month(currentYear,int(getMembersBirthdayMonth(member)))
-    #print(monCal)
+    monCal = calendar.month(currentYear, int(getMembersBirthdayMonth(member)))
     return monCal
 
 
-# getMembersBirthday("Momo")
-# getMembersBirthdayMonth("Jihyo")
 # showBdayMonCal("Nayeon")
 # showBdayMonCal("Jeongyeon")
 # showBdayMonCal("Momo")
 # showBdayMonCal("Sana")
 # showBdayMonCal("Jihyo")
 # showBdayMonCal("Mina")
+# showBdayMonCal("Dahyun")
 # showBdayMonCal("Chaeyoung")
 # showBdayMonCal("Tzuyu")
-
-#calendar.month(00,)
