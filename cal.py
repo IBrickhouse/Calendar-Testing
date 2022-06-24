@@ -1,8 +1,22 @@
 import calendar
 from datetime import date
+from xml.etree.ElementTree import tostring
 import twiceMembers
 
 def getMembersBirthday(member):
-    print(twiceMembers.getTwice(member)["Birthday"])
+    birthday = twiceMembers.getTwice(member)["Birthday"]
+    print(birthday)
+    return birthday
 
-getMembersBirthday("Momo")
+def getMembersBirthdayMonth(member):
+    birthday = twiceMembers.getTwice(member)["Birthday"]
+    month = str(birthday)
+    month = month[4:6]
+    print(month)
+
+
+
+
+
+#getMembersBirthday("Momo")
+getMembersBirthdayMonth("Jihyo")
