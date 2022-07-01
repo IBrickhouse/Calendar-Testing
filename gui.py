@@ -1,4 +1,4 @@
-#Import statements
+# Import statements
 from tkinter import *
 import calendar
 from datetime import date

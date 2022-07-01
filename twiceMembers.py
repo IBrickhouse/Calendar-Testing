@@ -3,7 +3,7 @@ twice = {
                 "Name": "Twice",
                 "Debut": 20151020,
                 #"Color": "Apricot & Neon Magenta",
-                #color apricot (#FCC89B) Neon Magenta (#FF5FA2)
+                # color apricot (#FCC89B) and Neon Magenta (#FF5FA2)
                 "Color": '#FCC89B'
 }
 
